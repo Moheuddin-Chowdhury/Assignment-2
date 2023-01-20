@@ -224,13 +224,72 @@ margin-bottom: 40px;
     margin-bottom: 50px;
 }
 .sponser .img-container img{
-    margin: 0px 30px;
-    width: 166px;
+    margin: 0px 20px;
+    width: 160px;
     height: 50px;
 }
 
+.copywrite{
+    text-align: center;
+    margin: 20px 240px;
+    height: auto;
+    padding: 20px 0px; 
+    background: rgba(255, 244, 231, 1);
+    font-weight: 400;
+font-size: 20px;
 
+}
+/* Template  */
 
+.fotor {
+    display: flex;
+    
+}
+.connect{
+    margin-left: 230px;
+}
+.message{
+    margin-right: 230px;
+    
+}
+.connect-title,
+.message-title {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.link-icon{
+   display: flex;
+   gap: 10px;
+   margin-top: 20px;
+   font-weight: bold
+}
+.connect,
+.message{
+    text-align: left;
+    padding: 30px;
+}
+.message input{
+    width: 90%;
+    height: 40px;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    
+}
+.message textarea{
+    margin: 10px 0px;
+    outline: none;
+    border: 1px solid rgb(38, 212, 55);
+    resize: none;
+}
+.submit-btn{
+    padding: 5px;
+    height: 40px;
+    font-size: 20px;
+    font-size: 20px;
+}
 
 /* hover style  */
 button:hover {
@@ -297,5 +356,12 @@ button:hover {
     }
     .sponser p{
         width: 200px;
+    }
+    .fotor{
+        display: inline;
+        text-align: center;
+    }
+    .message{
+       margin-left: 50px;
     }
 }
